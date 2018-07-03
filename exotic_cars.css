@@ -1,0 +1,79 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active
+{
+  background-color: #4CAF50;
+}
+
+#element{
+  display: inline-grid;
+  grid-template-columns: [one] 400px [two] 400px;
+  grid-template-rows:400px 400px 400px;
+  position:relative;
+  left:200px;
+  top:100px;
+
+
+}
+.item
+{
+  border: 1px solid red;
+  position:relative;
+  margin:50px 50px 50px 50px;
+
+}
+#bmw
+{
+  max-width:100%;
+}
+.item:hover
+{
+  transform:scale(1.5);
+}
+.overlay
+{
+  height:100%;
+  width:100%;
+}
+.text
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:yellow;
+    max-width:100%;
+    text-align: center;
+
+}
+h3{
+  position:relative;
+  left:40%;
+  font-family:Actor;
+}
+footer{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+}
